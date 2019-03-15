@@ -9,7 +9,7 @@ package 'httpd' do
 end
 
 file '/var/www/html/index.html' do
-  content 'Hello Dear Students!! How r u??'
+  content 'Hello Dear Students!! Good morning!!'
   action :create
 end
 
